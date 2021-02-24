@@ -18,7 +18,6 @@
     "@tiejs/logger": "^1.7.0",
     "apollo-server-koa": "^2.19.1",
     "globby": "^11.0.1",
-    "graphql": "^15.4.0",
     "graphql-subscriptions": "^1.1.0",
     "graphql-type-json": "^0.3.2",
     "is-class": "0.0.9",
