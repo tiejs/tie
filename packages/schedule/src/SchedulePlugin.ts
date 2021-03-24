@@ -94,6 +94,9 @@ export class SchedulePlugin implements IPlugin {
       for (const methodName of methodNames) {
         const fn = instance[methodName]
         const value = methodStore.get(fn)
+
+        if (!value) continue
+
         const { cronOptions = {}, timerOptions = {} } = value
 
         // 如果方法内有 enable， 则用防范内的 enable 配置，它优先级最高，不管是 true or false
