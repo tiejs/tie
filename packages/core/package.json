@@ -28,7 +28,7 @@
     "chalk": "^4.1.0",
     "fs-jetpack": "^4.1.0",
     "globby": "^11.0.1",
-    "is-class": "0.0.9",
+    "is-class": "^0.0.9",
     "lodash.set": "^4.3.2"
   },
   "devDependencies": {

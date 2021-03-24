@@ -16,12 +16,12 @@
   "dependencies": {
     "@tiejs/common": "^1.7.0",
     "@tiejs/logger": "^1.7.0",
-    "apollo-server-koa": "^2.19.1",
+    "apollo-server-koa": "^2.21.2",
     "globby": "^11.0.1",
-    "graphql-subscriptions": "^1.1.0",
+    "graphql-subscriptions": "^1.2.1",
     "graphql-type-json": "^0.3.2",
-    "is-class": "0.0.9",
-    "type-graphql": "1.1.1"
+    "is-class": "^0.0.9",
+    "type-graphql": "^1.1.1"
   },
   "devDependencies": {
     "@types/glob": "^7.1.3",
