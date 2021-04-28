@@ -20,7 +20,6 @@ export class SchedulePlugin implements IPlugin {
 
     const name = cronOptions.name || propertyKey
     config.cronJobs[name] = job
-    config.cronJobs[name].running = job.getStatus() === 'scheduled'
   }
 
   timeout(instance: any, value: MethodStoreValue) {
