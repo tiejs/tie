@@ -1,7 +1,7 @@
 module.exports = {
   title: 'TieJS',
   tagline: 'A Node.js Framework based on Koa and TypeScript',
-  url: 'https://tiejs.now.sh',
+  url: 'https://tiejs.vercel.app',
   baseUrl: '/',
   favicon: 'img/favicon.ico',
   organizationName: 'tiejs',

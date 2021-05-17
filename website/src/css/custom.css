@@ -56,12 +56,11 @@ html[data-theme='dark'] .docusaurus-highlight-code-line {
 }
 
 .feature li {
-  font-weight: 100;
   display: inline-block;
   color: #fff;
   margin: 2px 2px;
   padding: 2px 6px 4px;
-  border: 1px solid rgb(102, 212, 189, 0.5);
+  border: 1px solid rgb(102, 212, 189, 0.4);
   border-radius: 4px;
 }
 

@@ -40,9 +40,9 @@ export class HomeController {
 
 ## 文档
 
-官方文档 [tiejs.now.sh](https://tiejs.now.sh/).
+官方文档 [tiejs.vercel.app](https://tiejs.vercel.app/).
 
-入门教程 [快速开始](https://tiejs.now.sh/docs/intro/quick-start).
+入门教程 [快速开始](https://tiejs.vercel.app/docs/intro/quick-start).
 
 ## License
 
