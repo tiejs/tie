@@ -76,8 +76,9 @@ export class HomeController {
 
 ```js
 import { Resolver, Query } from 'type-graphql'
-import { InjectConfig } from '@tiejs/common'
+import { Injectable, InjectConfig } from '@tiejs/common'
 
+@Injectable()
 @Resolver()
 export class HomeResolver {
   constructor(@InjectConfig('auth') private authConfig: AuthConfig) {}

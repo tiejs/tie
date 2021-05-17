@@ -57,10 +57,12 @@ Graphql 中的检验和 Controller 中类似：
 
 ```js
 import { Resolver, Arg, Mutation } from 'type-graphql'
+import { Injectable } from '@tiejs/common'
 import { User } from './user.type'
 import { UserService } from './user.service'
 import { CreateUserInput } from 'createUser.input'
 
+@Injectable()
 @Resolver(() => User)
 export class UserResolver {
   @Mutation(() => User)
