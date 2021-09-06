@@ -86,7 +86,7 @@
       "@oclif/plugin-help"
     ]
   },
-  "repository": "tie-team/tie-cli",
+  "repository": "pea-team/tie-cli",
   "scripts": {
     "postpack": "rm -f oclif.manifest.json",
     "posttest": "test -t stylish",
