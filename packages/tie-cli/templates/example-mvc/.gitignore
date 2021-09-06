@@ -1,0 +1,10 @@
+.DS_Store
+
+node_modules
+package-lock.json
+
+/generated
+/logs
+
+**/*.js
+**/*d.ts
