@@ -18,9 +18,9 @@ export class Loader {
 
     await this.initPluginStore()
 
-    const middlewareStoreBuiler = Container.get(MiddlewareStoreBuilder)
+    const middlewareStoreBuilder = Container.get(MiddlewareStoreBuilder)
 
-    this.app.middlewareStore = await middlewareStoreBuiler.createMiddlewareStore()
+    this.app.middlewareStore = await middlewareStoreBuilder.createMiddlewareStore()
 
     this.applyBeforeMiddleware()
 
