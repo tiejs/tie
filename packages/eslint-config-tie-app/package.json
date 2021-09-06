@@ -1,0 +1,27 @@
+{
+  "name": "eslint-config-tie-app",
+  "version": "1.13.0",
+  "description": "ESLint configuration for Tie",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tiejs/tie.git"
+  },
+  "scripts": {
+    "build": "echo"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tiejs/tie/issues"
+  },
+  "files": [
+    "index.js"
+  ],
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.30.0",
+    "@typescript-eslint/parser": "^4.30.0",
+    "eslint": "^7.32.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "^4.0.0"
+  },
+  "devDependencies": {}
+}
